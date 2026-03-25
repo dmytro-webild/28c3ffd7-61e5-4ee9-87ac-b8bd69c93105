@@ -10,7 +10,7 @@ import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import { Award, Sparkles, Star } from "lucide-react";
+import { Award, Sparkles, Star, ArrowRight } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -111,7 +111,7 @@ export default function LandingPage() {
         {
           title: "Haircuts & Fades",
           description: "Achieve the perfect look with our sharp fades, clean cuts, and personalized styling tailored to your preference.",
-          buttonIcon: "ArrowRight",
+          buttonIcon: ArrowRight,
           buttonHref: "/services",
           imageSrc: "http://img.b2bpic.net/free-vector/brush-barbershop-logo-template-design_742173-21231.jpg",
           imageAlt: "Haircut and fade icon",
@@ -119,7 +119,7 @@ export default function LandingPage() {
         {
           title: "Beard Trimming & Shaping",
           description: "Keep your beard looking its best with our precise trimming, shaping, and conditioning services.",
-          buttonIcon: "ArrowRight",
+          buttonIcon: ArrowRight,
           buttonHref: "/services",
           imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-beards-make-everything-better-desktop-wallpaper_742173-11689.jpg",
           imageAlt: "Beard trimming icon",
@@ -127,7 +127,7 @@ export default function LandingPage() {
         {
           title: "Full Grooming Packages",
           description: "Indulge in a complete transformation with our comprehensive grooming packages, including facials and more.",
-          buttonIcon: "ArrowRight",
+          buttonIcon: ArrowRight,
           buttonHref: "/services",
           imageSrc: "http://img.b2bpic.net/free-photo/top-view-toilet-bag-still-life_23-2149879571.jpg",
           imageAlt: "Grooming package icon",
